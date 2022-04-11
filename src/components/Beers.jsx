@@ -1,5 +1,5 @@
 import Beer from './Beer.jsx'
-import Header from './Header.jsx'
+
 
 /* function Beers({props}) {
     console.log(props.title);

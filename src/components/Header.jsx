@@ -1,9 +1,12 @@
-function Header() {
-    return (
-        <div className="header">
+import {Component} from 'react'
 
-        </div>
-    )
+
+class Header extends Component {
+    render(){
+        return (
+            <header>{this.props.title}</header>
+        )
+    }
 }
 
 export default Header
